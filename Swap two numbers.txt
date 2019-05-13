@@ -1,0 +1,9 @@
+def _swap(a,b):
+    return(a,b)
+a=int(input("Enter a number1"))
+b=int(input("Enter a number2"))              
+temp=a
+a=b
+b=temp
+result=_swap(a,b)
+print("Result after swapping is",result)
