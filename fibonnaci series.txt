@@ -1,0 +1,15 @@
+
+def fibo(n):
+    if n <=1:
+        return n
+    else:
+        return(fibo(n-1)+fibo(n-2))
+    
+num=int(input("Enter a Number to obtain a fibonnaci series according to that number"))
+if num <=0:
+              print("Number should be greater than zero")
+else:
+              print("Fibonnaci Series")
+              for i in range(num):
+                 print(fibo(i))
+              
